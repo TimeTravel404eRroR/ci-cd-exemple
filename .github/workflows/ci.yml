@@ -24,6 +24,9 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '18.x'
+    #Step3: Install dependencies
+    - name: Install dependencies
+      run: npm install
 
   #Job 2
   build:
